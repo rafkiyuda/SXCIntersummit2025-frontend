@@ -1,0 +1,11 @@
+@keyframes scrollLeftSlow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-scrollLeftSlow {
+  animation: scrollLeftSlow 5s linear infinite;
+}

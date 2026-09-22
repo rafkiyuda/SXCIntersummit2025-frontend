@@ -1,0 +1,89 @@
+// Dummy data for BMC Prelim page
+// You can import these into your components/pages
+
+export const dummyUsers = [
+  {
+    id: 1,
+    name: "Clarissa Putri",
+    email: "clarissa@sxc.com",
+    role: "Admin",
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "Wita Awit",
+    email: "wita@sxc.com",
+    role: "Verifier",
+    status: "Pending",
+  },
+  {
+    id: 3,
+    name: "Budi Santoso",
+    email: "budi@sxc.com",
+    role: "Participant",
+    status: "Inactive",
+  },
+];
+
+export const dummyMenuItems = [
+  {
+    name: "General Verification",
+    icon: "/images/admin/bmc/general-verification.svg",
+    route: "/admin/bmc/prelim",
+  },
+  {
+    name: "Participant List",
+    icon: "/images/admin/bmc/participant-list.svg",
+    route: "/admin/bmc/participants",
+  },
+  {
+    name: "Role Changer",
+    icon: "/images/admin/bmc/role-changer.svg",
+    route: "/admin/bmc/roles",
+  },
+];
+
+export const dummyTableRows = [
+  {
+    id: 1,
+    name: "Clarissa Putri",
+    team: "Suka Menang",
+    teamCode: "CP-01",
+    proofUrl: "#",
+    paymentStatus: "paid",
+    submissionStatus: "submitted",
+    status: 1,
+    score: 89.42,
+    email: "clarissa@sxc.com",
+    verified: true,
+    role: "Admin",
+  },
+  {
+    id: 2,
+    name: "Wita Awit",
+    team: "Tim Hore Hore",
+    teamCode: "WA-02",
+    proofUrl: "#",
+    paymentStatus: "paid",
+    submissionStatus: "submitted",
+    status: 1,
+    score: 91.39,
+    email: "wita@sxc.com",
+    verified: false,
+    role: "Verifier",
+  },
+  {
+    id: 3,
+    name: "Budi Santoso",
+    team: "Tim Santai",
+    teamCode: "BS-03",
+    proofUrl: "#",
+    paymentStatus: "unpaid",
+    submissionStatus: "pending",
+    status: 0,
+    score: 75.00,
+    email: "budi@sxc.com",
+    verified: true,
+    role: "Participant",
+  },
+];
